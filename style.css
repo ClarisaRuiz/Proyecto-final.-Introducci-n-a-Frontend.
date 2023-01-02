@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 10px 10px 0px 10px;
+    border: 3px solid rgb(3, 4, 57);
+    background-image: url(img/sea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 100%;
+}
+
+h1 {
+    font-family: 'East Sea Dokdo', cursive;
+    color: rgb(4, 95, 141);
+    font-size: 150px;
+    letter-spacing: 3mm;
+    text-align: center;
+    word-spacing: 10mm;
+    text-shadow: 4px 5px 4px rgba(189, 94, 11, 0.814);
+}
+
+.episodes {
+    display: flex;
+    justify-content: space-around
+}
+
+.episodes a {
+    background-color: rgb(14, 146, 169);
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(219, 212, 199);
+    border: 1px solid rgb(161, 125, 7);
+}
+
+#container {
+    background-color: rgb(33, 83, 141);
+    background-position: center;
+    background-size: cover;
+    margin: 0px 10px 0px 10px;
+    border: 3px solid rgb(19, 25, 82);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.card {
+    border: 1px solid rgb(16, 12, 13);
+    margin: 20px;
+    width: 200px;
+    height: 200 px;
+    margin: 3 px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(img/sea.jpg);
+    box-shadow: 4px 5px rgba(183, 138, 14, 0.749);
+}
+
+.name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(174, 160, 42);
+    font-size: 10 px;
+    font-style: oblique;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(1, 1, 21, 0.814);
+}
+
+.imagen {
+    border-radius: 10px;
+    width: 120px;
+    height: 120 px;
+    box-shadow: 7px 5px 5px rgba(47, 44, 207, 0.577);
+}
+
+.gender,
+.species,
+.status {
+    font-size: 16px;
+    color: rgb(3, 4, 53);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    color: rgb(25, 19, 195);
+    background-image: url(img/sea.jpg);
+    padding: 16px;
+    margin: 0px 10px 0px 10px;
+    border: 3px solid rgb(15, 34, 201);
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:880px) {
+    #container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media(max-width:580px) {
+    h1 {
+        font-family: 'East Sea Dokdo', cursive;
+        color: rgb(163, 213, 227);
+        font-size: 70px;
+        text-align: center;
+        word-spacing: 5mm;
+        text-shadow: 3px 5px 2px rgba(233, 136, 61, 0.814);
+    }
+}
+
+@media(max-width:480px) {
+    #container {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .card {
+        color: chocolate;
+        background-image: url(img/sky.jpg)
+    }
+}
