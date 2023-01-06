@@ -15,7 +15,7 @@ header {
 
 h1 {
     font-family: 'East Sea Dokdo', cursive;
-    color: rgb(4, 95, 141);
+    color: rgb(96, 220, 222);
     font-size: 130px;
     letter-spacing: 3mm;
     text-align: center;
@@ -52,16 +52,15 @@ h1 {
     margin: 20px;
     width: 200px;
     height: 200 px;
-    margin: 3 px;
     border-radius: 10px;
     text-align: center;
     background-image: url(img/sea.jpg);
-    box-shadow: 4px 5px rgba(183, 138, 14, 0.749);
+    box-shadow: 4px 5px rgba(189, 94, 11, 0.814);
 }
 
 .name {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(174, 160, 42);
+    color: rgb(189, 94, 11, 0.814);
     font-size: 10 px;
     font-style: oblique;
     font-weight: bold;
