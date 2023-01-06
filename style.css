@@ -59,6 +59,7 @@ h1 {
 }
 
 .name {
+    padding: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(189, 94, 11, 0.814);
     font-size: 10 px;
